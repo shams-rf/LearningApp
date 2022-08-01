@@ -7,21 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DBFC5761289840C80020C198 /* LearningAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC5751289840C60020C198 /* LearningAppApp.swift */; };
-		DBFC5762289840C80020C198 /* LearningAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC5751289840C60020C198 /* LearningAppApp.swift */; };
-		DBFC5763289840C80020C198 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC5752289840C60020C198 /* ContentView.swift */; };
-		DBFC5764289840C80020C198 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC5752289840C60020C198 /* ContentView.swift */; };
+		DBFC5761289840C80020C198 /* LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC5751289840C60020C198 /* LearningApp.swift */; };
+		DBFC5762289840C80020C198 /* LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC5751289840C60020C198 /* LearningApp.swift */; };
+		DBFC5763289840C80020C198 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC5752289840C60020C198 /* HomeView.swift */; };
+		DBFC5764289840C80020C198 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC5752289840C60020C198 /* HomeView.swift */; };
 		DBFC5765289840C80020C198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBFC5753289840C80020C198 /* Assets.xcassets */; };
 		DBFC5766289840C80020C198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBFC5753289840C80020C198 /* Assets.xcassets */; };
+		DBFC57752898427D0020C198 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC57742898427D0020C198 /* ContentModel.swift */; };
+		DBFC57762898427D0020C198 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC57742898427D0020C198 /* ContentModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DBFC5751289840C60020C198 /* LearningAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningAppApp.swift; sourceTree = "<group>"; };
-		DBFC5752289840C60020C198 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DBFC5751289840C60020C198 /* LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningApp.swift; sourceTree = "<group>"; };
+		DBFC5752289840C60020C198 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		DBFC5753289840C80020C198 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBFC5758289840C80020C198 /* LearningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBFC575E289840C80020C198 /* LearningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBFC5760289840C80020C198 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		DBFC57742898427D0020C198 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +57,12 @@
 		DBFC5750289840C60020C198 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				DBFC5751289840C60020C198 /* LearningAppApp.swift */,
-				DBFC5752289840C60020C198 /* ContentView.swift */,
+				DBFC5751289840C60020C198 /* LearningApp.swift */,
+				DBFC5771289841CB0020C198 /* Views */,
+				DBFC5770289841C10020C198 /* ViewModels */,
+				DBFC576F289841BB0020C198 /* Models */,
+				DBFC5772289841D10020C198 /* Resources */,
+				DBFC5773289841D80020C198 /* Helpers */,
 				DBFC5753289840C80020C198 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -76,6 +83,43 @@
 				DBFC5760289840C80020C198 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		DBFC576F289841BB0020C198 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DBFC5770289841C10020C198 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DBFC57742898427D0020C198 /* ContentModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DBFC5771289841CB0020C198 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DBFC5752289840C60020C198 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DBFC5772289841D10020C198 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DBFC5773289841D80020C198 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,8 +220,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBFC5763289840C80020C198 /* ContentView.swift in Sources */,
-				DBFC5761289840C80020C198 /* LearningAppApp.swift in Sources */,
+				DBFC5763289840C80020C198 /* HomeView.swift in Sources */,
+				DBFC5761289840C80020C198 /* LearningApp.swift in Sources */,
+				DBFC57752898427D0020C198 /* ContentModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,8 +230,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBFC5764289840C80020C198 /* ContentView.swift in Sources */,
-				DBFC5762289840C80020C198 /* LearningAppApp.swift in Sources */,
+				DBFC5764289840C80020C198 /* HomeView.swift in Sources */,
+				DBFC5762289840C80020C198 /* LearningApp.swift in Sources */,
+				DBFC57762898427D0020C198 /* ContentModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
