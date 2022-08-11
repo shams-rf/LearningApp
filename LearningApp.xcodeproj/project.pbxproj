@@ -21,6 +21,8 @@
 		DBFC577C289847ED0020C198 /* style.html in Resources */ = {isa = PBXBuildFile; fileRef = DBFC5778289847ED0020C198 /* style.html */; };
 		DBFC577E2898494B0020C198 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC577D2898494B0020C198 /* Models.swift */; };
 		DBFC577F2898494B0020C198 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC577D2898494B0020C198 /* Models.swift */; };
+		DBFC578128A3E2B50020C198 /* HomeViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC578028A3E2B50020C198 /* HomeViewRow.swift */; };
+		DBFC578228A3E2B50020C198 /* HomeViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC578028A3E2B50020C198 /* HomeViewRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,7 @@
 		DBFC5777289847ED0020C198 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = data.json; path = "M5L3 Resources/data/data.json"; sourceTree = SOURCE_ROOT; };
 		DBFC5778289847ED0020C198 /* style.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = style.html; path = "M5L3 Resources/data/style.html"; sourceTree = SOURCE_ROOT; };
 		DBFC577D2898494B0020C198 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		DBFC578028A3E2B50020C198 /* HomeViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				DBFC5752289840C60020C198 /* HomeView.swift */,
+				DBFC578028A3E2B50020C198 /* HomeViewRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -237,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBFC5763289840C80020C198 /* HomeView.swift in Sources */,
+				DBFC578128A3E2B50020C198 /* HomeViewRow.swift in Sources */,
 				DBFC5761289840C80020C198 /* LearningApp.swift in Sources */,
 				DBFC57752898427D0020C198 /* ContentModel.swift in Sources */,
 				DBFC577E2898494B0020C198 /* Models.swift in Sources */,
@@ -248,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBFC5764289840C80020C198 /* HomeView.swift in Sources */,
+				DBFC578228A3E2B50020C198 /* HomeViewRow.swift in Sources */,
 				DBFC5762289840C80020C198 /* LearningApp.swift in Sources */,
 				DBFC57762898427D0020C198 /* ContentModel.swift in Sources */,
 				DBFC577F2898494B0020C198 /* Models.swift in Sources */,
