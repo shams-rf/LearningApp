@@ -23,6 +23,10 @@
 		DBFC577F2898494B0020C198 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC577D2898494B0020C198 /* Models.swift */; };
 		DBFC578128A3E2B50020C198 /* HomeViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC578028A3E2B50020C198 /* HomeViewRow.swift */; };
 		DBFC578228A3E2B50020C198 /* HomeViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC578028A3E2B50020C198 /* HomeViewRow.swift */; };
+		DBFC578428A5029D0020C198 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC578328A5029D0020C198 /* ContentView.swift */; };
+		DBFC578528A5029D0020C198 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC578328A5029D0020C198 /* ContentView.swift */; };
+		DBFC578728A537F90020C198 /* ContentViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC578628A537F90020C198 /* ContentViewRow.swift */; };
+		DBFC578828A537F90020C198 /* ContentViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC578628A537F90020C198 /* ContentViewRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,8 @@
 		DBFC5778289847ED0020C198 /* style.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = style.html; path = "M5L3 Resources/data/style.html"; sourceTree = SOURCE_ROOT; };
 		DBFC577D2898494B0020C198 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		DBFC578028A3E2B50020C198 /* HomeViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRow.swift; sourceTree = "<group>"; };
+		DBFC578328A5029D0020C198 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DBFC578628A537F90020C198 /* ContentViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +124,8 @@
 			children = (
 				DBFC5752289840C60020C198 /* HomeView.swift */,
 				DBFC578028A3E2B50020C198 /* HomeViewRow.swift */,
+				DBFC578328A5029D0020C198 /* ContentView.swift */,
+				DBFC578628A537F90020C198 /* ContentViewRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -242,7 +250,9 @@
 			files = (
 				DBFC5763289840C80020C198 /* HomeView.swift in Sources */,
 				DBFC578128A3E2B50020C198 /* HomeViewRow.swift in Sources */,
+				DBFC578428A5029D0020C198 /* ContentView.swift in Sources */,
 				DBFC5761289840C80020C198 /* LearningApp.swift in Sources */,
+				DBFC578728A537F90020C198 /* ContentViewRow.swift in Sources */,
 				DBFC57752898427D0020C198 /* ContentModel.swift in Sources */,
 				DBFC577E2898494B0020C198 /* Models.swift in Sources */,
 			);
@@ -254,7 +264,9 @@
 			files = (
 				DBFC5764289840C80020C198 /* HomeView.swift in Sources */,
 				DBFC578228A3E2B50020C198 /* HomeViewRow.swift in Sources */,
+				DBFC578528A5029D0020C198 /* ContentView.swift in Sources */,
 				DBFC5762289840C80020C198 /* LearningApp.swift in Sources */,
+				DBFC578828A537F90020C198 /* ContentViewRow.swift in Sources */,
 				DBFC57762898427D0020C198 /* ContentModel.swift in Sources */,
 				DBFC577F2898494B0020C198 /* Models.swift in Sources */,
 			);
