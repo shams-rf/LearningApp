@@ -27,6 +27,11 @@
 		DBFC578528A5029D0020C198 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC578328A5029D0020C198 /* ContentView.swift */; };
 		DBFC578728A537F90020C198 /* ContentViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC578628A537F90020C198 /* ContentViewRow.swift */; };
 		DBFC578828A537F90020C198 /* ContentViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC578628A537F90020C198 /* ContentViewRow.swift */; };
+		DBFC578A28A66CE80020C198 /* ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC578928A66CE70020C198 /* ContentDetailView.swift */; };
+		DBFC578B28A66CE80020C198 /* ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC578928A66CE70020C198 /* ContentDetailView.swift */; };
+		DBFC578E28A670AD0020C198 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFC578D28A670AD0020C198 /* AVKit.framework */; };
+		DBFC579028A6722C0020C198 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC578F28A6722C0020C198 /* Constants.swift */; };
+		DBFC579128A6722C0020C198 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC578F28A6722C0020C198 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +48,9 @@
 		DBFC578028A3E2B50020C198 /* HomeViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRow.swift; sourceTree = "<group>"; };
 		DBFC578328A5029D0020C198 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DBFC578628A537F90020C198 /* ContentViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRow.swift; sourceTree = "<group>"; };
+		DBFC578928A66CE70020C198 /* ContentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailView.swift; sourceTree = "<group>"; };
+		DBFC578D28A670AD0020C198 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/AVKit.framework; sourceTree = DEVELOPER_DIR; };
+		DBFC578F28A6722C0020C198 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBFC578E28A670AD0020C198 /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +78,7 @@
 				DBFC5750289840C60020C198 /* Shared */,
 				DBFC575F289840C80020C198 /* macOS */,
 				DBFC5759289840C80020C198 /* Products */,
+				DBFC578C28A670AC0020C198 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +136,7 @@
 				DBFC578028A3E2B50020C198 /* HomeViewRow.swift */,
 				DBFC578328A5029D0020C198 /* ContentView.swift */,
 				DBFC578628A537F90020C198 /* ContentViewRow.swift */,
+				DBFC578928A66CE70020C198 /* ContentDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -135,6 +146,7 @@
 			children = (
 				DBFC5777289847ED0020C198 /* data.json */,
 				DBFC5778289847ED0020C198 /* style.html */,
+				DBFC578F28A6722C0020C198 /* Constants.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -144,6 +156,14 @@
 			children = (
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DBFC578C28A670AC0020C198 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBFC578D28A670AD0020C198 /* AVKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,10 +271,12 @@
 				DBFC5763289840C80020C198 /* HomeView.swift in Sources */,
 				DBFC578128A3E2B50020C198 /* HomeViewRow.swift in Sources */,
 				DBFC578428A5029D0020C198 /* ContentView.swift in Sources */,
+				DBFC578A28A66CE80020C198 /* ContentDetailView.swift in Sources */,
 				DBFC5761289840C80020C198 /* LearningApp.swift in Sources */,
 				DBFC578728A537F90020C198 /* ContentViewRow.swift in Sources */,
 				DBFC57752898427D0020C198 /* ContentModel.swift in Sources */,
 				DBFC577E2898494B0020C198 /* Models.swift in Sources */,
+				DBFC579028A6722C0020C198 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,10 +287,12 @@
 				DBFC5764289840C80020C198 /* HomeView.swift in Sources */,
 				DBFC578228A3E2B50020C198 /* HomeViewRow.swift in Sources */,
 				DBFC578528A5029D0020C198 /* ContentView.swift in Sources */,
+				DBFC578B28A66CE80020C198 /* ContentDetailView.swift in Sources */,
 				DBFC5762289840C80020C198 /* LearningApp.swift in Sources */,
 				DBFC578828A537F90020C198 /* ContentViewRow.swift in Sources */,
 				DBFC57762898427D0020C198 /* ContentModel.swift in Sources */,
 				DBFC577F2898494B0020C198 /* Models.swift in Sources */,
+				DBFC579128A6722C0020C198 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
