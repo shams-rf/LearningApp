@@ -17,17 +17,41 @@ struct ContentDetailView: View {
         let lesson = model.currentLesson
         let url = URL(string: Constants.videoHostUrl + (lesson?.video ?? ""))
         
-        //only show video if valid url
-        if url != nil {
+        VStack {
             
-            VideoPlayer(player: AVPlayer(url: url!))
+            //only show video if valid url
+            if url != nil {
+                
+                VideoPlayer(player: AVPlayer(url: url!))
+                    .cornerRadius(10)
+            }
+            
+            //description
+            
+            //show next lesson button if next lesson exists
+            if model.hasNextLesson() {
+                
+                Button(action: {
+                    
+                    //advance the lesson
+                    model.nextLesson()
+                }, label: {
+                    
+                    ZStack {
+                        
+                        Rectangle()
+                            .frame(height: 48)
+                            .foregroundColor(.green)
+                            .cornerRadius(10)
+                            .shadow(radius: 5)
+                        
+                        Text("Next Lesson: \(model.currentModule!.content.lessons[model.currentLessonIndex].title)")
+                            .foregroundColor(.white)
+                            .bold()
+                    }
+                })
+            }
         }
-    }
-}
-
-struct ContentDetailView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentDetailView()
-            .environmentObject(ContentModel())
+        .padding()
     }
 }

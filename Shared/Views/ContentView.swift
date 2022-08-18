@@ -35,6 +35,7 @@ struct ContentView: View {
                     }
                 }
             }
+            .tint(.black)
             .padding()
             .navigationTitle("Learn \(model.currentModule?.category ?? "")")
         }
