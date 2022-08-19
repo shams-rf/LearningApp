@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		DB21C69728AE47BA0049E0A5 /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB21C69628AE47BA0049E0A5 /* CodeTextView.swift */; };
 		DB21C69828AE47BA0049E0A5 /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB21C69628AE47BA0049E0A5 /* CodeTextView.swift */; };
+		DB21C6E828AF82D00049E0A5 /* RectangleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB21C6E728AF82D00049E0A5 /* RectangleCard.swift */; };
+		DB21C6E928AF82D00049E0A5 /* RectangleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB21C6E728AF82D00049E0A5 /* RectangleCard.swift */; };
 		DBFC5761289840C80020C198 /* LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC5751289840C60020C198 /* LearningApp.swift */; };
 		DBFC5762289840C80020C198 /* LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC5751289840C60020C198 /* LearningApp.swift */; };
 		DBFC5763289840C80020C198 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC5752289840C60020C198 /* HomeView.swift */; };
@@ -38,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		DB21C69628AE47BA0049E0A5 /* CodeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextView.swift; sourceTree = "<group>"; };
+		DB21C6E728AF82D00049E0A5 /* RectangleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleCard.swift; sourceTree = "<group>"; };
 		DBFC5751289840C60020C198 /* LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningApp.swift; sourceTree = "<group>"; };
 		DBFC5752289840C60020C198 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		DBFC5753289840C80020C198 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -141,6 +144,7 @@
 				DBFC578628A537F90020C198 /* ContentViewRow.swift */,
 				DBFC578928A66CE70020C198 /* ContentDetailView.swift */,
 				DB21C69628AE47BA0049E0A5 /* CodeTextView.swift */,
+				DB21C6E728AF82D00049E0A5 /* RectangleCard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -276,6 +280,7 @@
 				DBFC578128A3E2B50020C198 /* HomeViewRow.swift in Sources */,
 				DBFC578428A5029D0020C198 /* ContentView.swift in Sources */,
 				DBFC578A28A66CE80020C198 /* ContentDetailView.swift in Sources */,
+				DB21C6E828AF82D00049E0A5 /* RectangleCard.swift in Sources */,
 				DBFC5761289840C80020C198 /* LearningApp.swift in Sources */,
 				DBFC578728A537F90020C198 /* ContentViewRow.swift in Sources */,
 				DB21C69728AE47BA0049E0A5 /* CodeTextView.swift in Sources */,
@@ -293,6 +298,7 @@
 				DBFC578228A3E2B50020C198 /* HomeViewRow.swift in Sources */,
 				DBFC578528A5029D0020C198 /* ContentView.swift in Sources */,
 				DBFC578B28A66CE80020C198 /* ContentDetailView.swift in Sources */,
+				DB21C6E928AF82D00049E0A5 /* RectangleCard.swift in Sources */,
 				DBFC5762289840C80020C198 /* LearningApp.swift in Sources */,
 				DBFC578828A537F90020C198 /* ContentViewRow.swift in Sources */,
 				DB21C69828AE47BA0049E0A5 /* CodeTextView.swift in Sources */,
