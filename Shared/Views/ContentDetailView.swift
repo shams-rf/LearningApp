@@ -52,6 +52,29 @@ struct ContentDetailView: View {
                     }
                 })
             }
+            else {
+                
+                //show complete button
+                Button(action: {
+                    
+                    //take user back to homeview
+                    model.currentContentselected = nil
+                }, label: {
+                    
+                    ZStack {
+                        
+                        Rectangle()
+                            .frame(height: 48)
+                            .foregroundColor(.green)
+                            .cornerRadius(10)
+                            .shadow(radius: 5)
+                        
+                        Text("Complete")
+                            .foregroundColor(.white)
+                            .bold()
+                    }
+                })
+            }
         }
         .padding()
         .navigationTitle(lesson?.title ?? "")
